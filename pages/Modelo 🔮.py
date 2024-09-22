@@ -32,8 +32,8 @@ def coletar_entradas_usuario():
     nota_mat = st.number_input("Nota de Matemática", min_value=0.0, max_value=10.0, value=5.0, step=0.1)
     nota_ing = st.number_input("Nota de Inglês", min_value=0.0, max_value=10.0, value=5.0, step=0.1)
     ano_ingresso = st.number_input("Ano de Ingresso", min_value=2000, max_value=2024, value=2020)
-    ieg = st.number_input("Índice IEG", min_value=0.0, max_value=5.0, value=5.0, step=0.1)
-    iaa = st.number_input("Índice IAA", min_value=0.0, max_value=5.0, value=5.0, step=0.1)
+    ieg = st.number_input("Índice IEG", min_value=0.0, max_value=10.0, value=5.0, step=0.1)
+    iaa = st.number_input("Índice IAA", min_value=0.0, max_value=10.0, value=5.0, step=0.1)
     
     # Criar um dicionário com os valores
     dados_usuario = {
